@@ -1,0 +1,161 @@
+.nav-section{
+    background-color: #004274;
+}
+
+.nav-section div p span{
+    color: #00AEFF;
+}
+
+.nav-section div button{
+    background-color: #00AEFF;
+    color: #fff;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.nav-section div ul{
+    list-style-type: none;
+    
+}
+
+.container p{
+    color: #00AEFF;
+}
+
+#button{
+    background-color:#004274;
+
+}
+
+.container button{
+    background-color: #00AEFF;
+    color: #fff;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* hero section  */
+
+.img-section{
+    background-image: url("./image/h1_hero1.jpg");
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img-section::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #00000069;
+}
+
+
+.content-section{
+    position: relative;
+    z-index: 2233;
+}
+
+#property-button{
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem;
+    background-color: #00AEFF;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+/* card section start  */
+
+
+
+/* peoplesection  */
+
+.img-section-2{
+    background-image: url("./image/section-bg1.jpg");
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img-section-2::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #00000000;
+}
+
+.content-section-2{
+    position: relative;
+    z-index: 22;
+    /* background-color: #00AEFF; */
+}
+.content-section-2 .card{
+
+    background-color: #00AEFF;
+}
+
+
+#subscribe img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#subscribe .newsletter{
+    background-color: #004274;
+    color: #fff;
+}
+
+.input-text-section{
+    background-color: transparent;
+    width: 100%;
+    padding: 0.8rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-weight: 300;
+    
+}
+
+.input-text-section::placeholder{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.number{
+    color: #004274;
+    text-decoration: underline;
+}
+
+.copyright{
+    font-size: 15px;
+    background:#F2F6F9;
+    padding: 0.8rem 0;
+}
+.copyright span{
+   color: #00AEFF;
+}
